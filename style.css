@@ -1,7 +1,6 @@
 body{
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    margin-left: 450px;
 }
 
 header {
@@ -49,4 +48,34 @@ h1:hover{
     color: #15cbeb;
 }
 
+.div1{
+    background-color: #2479da;
+    margin-left: 450px;
+    margin-right: 450px;
+}
 
+.div1 h2{
+    margin-left: 20px;
+}
+
+.about{
+    background-color: whitesmoke;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.spacement{
+    color: grey;
+    font-size: 8px;
+}
+
+footer{
+    background-color: rgb(240, 228, 228);
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: grey
+}

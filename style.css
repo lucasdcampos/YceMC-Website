@@ -52,6 +52,7 @@ h1:hover{
     background-color: #2479da;
     margin-left: 450px;
     margin-right: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .div1 h2{
@@ -78,7 +79,13 @@ footer{
 footer p{
     text-align: center;
     font-size: 16px;
-    color: grey
+    color: grey;
+    text-decoration: none;
+}
+
+footer p a{
+    text-decoration: none;
+    color: grey;
 }
 
 #banner{
@@ -97,4 +104,62 @@ footer p{
 .discord{
     float: right;
     margin-right: 50px;
+}
+
+.titulo{
+    background-color: #2479da;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+
+.equipe{
+    margin-top: 70px;
+    background-color: whitesmoke;
+}
+
+.master{
+    background-color: red;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.master h2{
+    margin-top: 100px;
+}
+
+.admin{
+    background-color: rgb(248, 54, 54);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+}
+
+
+.mod{
+    background-color: rgb(89, 0, 255);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+}
+
+.ajudante{
+    background-color: rgb(32, 100, 245);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+}
+
+.trial{
+    background-color: rgb(255, 0, 221);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+}
+
+.staffs{
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -8,5 +8,7 @@ Após editar, certifique-se de que não cometeu nenhum erro e envie. Caso for um
 Outra forma de editar é criando um Fork do repositorio para a sua conta, editar por lá e depois enviar um Pull Request. Da mesma forma que na outra opção, certifique-se de que não cometeu nenhum erro.
 
 
+## Dê uma olhada no Site
+Caso queira ver como o site está ficando mas está com preguiça de baixá-lo, você pode ver online através deste link: https://yce-mc-website.vercel.app/
 
 

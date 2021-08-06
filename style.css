@@ -1,6 +1,7 @@
 body{
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
+
 }
 
 header {
@@ -53,6 +54,7 @@ h1:hover{
     margin-left: 450px;
     margin-right: 450px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
 }
 
 .div1 h2{
@@ -74,6 +76,7 @@ footer{
     background-color: rgb(240, 228, 228);
     margin-top: 50px;
     height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer p{
@@ -113,9 +116,24 @@ footer p a{
 }
 
 
-.equipe{
+.staff{
     margin-top: 70px;
     background-color: whitesmoke;
+
+}
+
+.staff img{
+    margin-left: 450px;
+    width: 64px;
+    height: 64px;
+    display: inline;
+
+}
+
+.staff p{
+    margin-left: 450px;
+    font-size: 18px;
+    
 }
 
 .master{
@@ -132,7 +150,7 @@ footer p a{
     background-color: rgb(248, 54, 54);
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 100px;
+
 }
 
 
@@ -140,21 +158,21 @@ footer p a{
     background-color: rgb(89, 0, 255);
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 100px;
+
 }
 
 .ajudante{
     background-color: rgb(32, 100, 245);
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 100px;
+
 }
 
 .trial{
     background-color: rgb(255, 0, 221);
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 100px;
+
 }
 
 .staffs{
@@ -163,3 +181,9 @@ footer p a{
     font-size: 38px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.about ul li{
+    text-decoration: none;
+    font-size: 18px;
+}
+

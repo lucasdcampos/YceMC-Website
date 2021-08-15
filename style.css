@@ -2,7 +2,8 @@ body{
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     overflow-x: hidden;
-
+    size: 100%;
+    min-height: 100%;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
     right: 0;
     left: 0;
     background: #2b8cfa;
+    max-height: 70px;
+
   }
 
 
@@ -34,7 +37,9 @@ h1:hover{
 
 #menu ul textarea{
     margin-left: 150px;
-    max-height: 35px;
+    max-height: 30px;
+    max-width: 200px;
+    resize: none;
 }
 
 #menu ul li a {
@@ -45,24 +50,12 @@ h1:hover{
     font-size: large;
     float: left;
     
-    
 }
 
 #menu ul li a:hover {
     color: #15cbeb;
 }
 
-.div1{
-    background-color: #2479da;
-    margin-left: 450px;
-    margin-right: 450px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 25px;
-}
-
-.div1 h2{
-    margin-left: 20px;
-}
 
 .about{
     background-color: whitesmoke;
@@ -70,17 +63,16 @@ h1:hover{
     margin-right: 450px;
 }
 
-.spacement{
-    color: grey;
-    font-size: 8px;
-}
 
 footer{
-    background-color: rgb(240, 228, 228);
+    background-color: rgb(247, 241, 241);
     margin-top: 50px;
     height: 150px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    
 }
+
 
 footer p{
     text-align: center;
@@ -91,7 +83,7 @@ footer p{
 
 footer p a{
     text-decoration: none;
-    color: grey;
+    color: rgb(80, 77, 77);
 }
 
 #banner{
@@ -114,10 +106,14 @@ footer p a{
     margin-right: 50px;
 }
 
-.titulo{
+.title{
     background-color: #2479da;
     margin-left: 450px;
     margin-right: 450px;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -191,4 +187,5 @@ footer p a{
     text-decoration: none;
     font-size: 18px;
 }
+
 
